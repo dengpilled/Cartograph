@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found - Cartograph</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: "Tiro Telugu", serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #F2EFE9;
+            color: #333333;
+        }
+        header {
+            background-color: #F2EFE9;
+            color: #379191;
+            padding: 0rem;
+            text-align: center;
+        }
+        .logo {
+            font-family: "Alice", serif;
+            font-size: 3.5em;
+            margin-bottom: 0.2rem;
+            margin-top: 1.2rem;
+            line-height: 1;
+        }
+        .logo span {
+            font-weight: bold;
+        }
+        .tagline {
+            margin-top: 0;
+            line-height: 1.2;
+            color: #383838;
+        }
+        nav {
+            background-color: #2f6666;
+            padding: 1rem;
+            text-align: center;
+            margin-top: -4px;
+        }
+        nav a {
+            color: #F2EFE9;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            font-size: 1.1em;
+        }
+        .error-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-title {
+            font-size: 6em;
+            color: #379191;
+            margin-bottom: 0;
+        }
+        .error-message {
+            font-size: 1.5em;
+            margin-bottom: 2rem;
+        }
+        .home-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #379191;
+            color: #F2EFE9;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .home-link:hover {
+            background-color: #2f6666;
+        }
+        footer {
+            background-color: #D3C8B4;
+            color: #3E3B39;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" style="text-decoration: none; color: inherit;">
+            <div class="logo"><span>CARTOGRAPH</span></div>
+            <p class="tagline">Mapping the Geopolitical, Cultural, and Market Landscapes</p>
+        </a>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="https://x.com/sinopill" target="_blank">X (Twitter)</a>
+        <a href="#contact">Contact</a>
+        <a href="https://cartograph.substack.com" target="_blank">Substack</a>
+    </nav>
+    
+    <main class="error-content">
+        <h1 class="error-title">404</h1>
+        <p class="error-message">Oops! The page you're looking for seems to have wandered off the map.</p>
+        <a href="index.html" class="home-link">Return to Home</a>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Cartograph: Geopolitical, Cultural, and Market Landscapes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
